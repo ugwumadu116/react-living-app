@@ -1,5 +1,4 @@
 import React from 'react';
-import FooterComponent from './SubComponents/FooterComponent.js';
 import WelcomeDetailsComponent from './SubComponents/WelcomeDetailsComponent.js';
 import logo from '../logo.png';
 
@@ -79,7 +78,6 @@ class WelcomeComponent extends React.Component {
 							</div>
 						</div>
 					</div>
-					<FooterComponent />
 				</div>}
 				{(this.state.openDetails) && <WelcomeDetailsComponent closeDetails={this.closeDetails}/>}
 			</div>	
